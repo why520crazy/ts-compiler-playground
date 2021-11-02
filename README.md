@@ -4,6 +4,6 @@
 ## Installation
 
 ```bash
-yarn
-···
+yarn   // install dependencies
+```
 
