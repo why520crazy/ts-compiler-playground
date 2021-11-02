@@ -1,0 +1,25 @@
+{
+  "name": "ts-compiler-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/minimal-compiler.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/why520crazy/ts-compiler-playground.git"
+  },
+  "author": "why520crazy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/why520crazy/ts-compiler-playground/issues"
+  },
+  "homepage": "https://github.com/why520crazy/ts-compiler-playground#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
