@@ -18,10 +18,18 @@ function compile(fileNames: string[], options: ts.CompilerOptions): void {
 
     let exitCode = emitResult.emitSkipped ? 1 : 0;
     console.log(`Process exiting with code '${exitCode}'.`);
+    const sources = program.getSourceFiles();
+    console.log(
+        `${sources
+            .map((item) => {
+                return item.fileName;
+            })
+            .join('\n')}.`
+    );
     process.exit(exitCode);
 }
 
-const fileNames = process.argv.length > 2 ? process.argv.slice(2) : ['src/fixtures/basic/example.ts']
+const fileNames = process.argv.length > 2 ? process.argv.slice(2) : ['src/fixtures/basic/example.ts'];
 
 compile(fileNames, {
     noEmitOnError: true,

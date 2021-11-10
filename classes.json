@@ -1,0 +1,42 @@
+[
+    {
+        "name": "D",
+        "documentation": "Documentation for D",
+        "type": "typeof D",
+        "constructors": [
+            {
+                "parameters": [],
+                "returnType": "D",
+                "documentation": ""
+            }
+        ]
+    },
+    {
+        "name": "say",
+        "documentation": "Say hello for D",
+        "type": "(a: number) => string"
+    },
+    {
+        "name": "C",
+        "documentation": "Documentation for C",
+        "type": "typeof C",
+        "constructors": [
+            {
+                "parameters": [
+                    {
+                        "name": "a",
+                        "documentation": "my parameter documentation",
+                        "type": "string"
+                    },
+                    {
+                        "name": "b",
+                        "documentation": "another parameter documentation",
+                        "type": "C"
+                    }
+                ],
+                "returnType": "C",
+                "documentation": "constructor documentation"
+            }
+        ]
+    }
+]

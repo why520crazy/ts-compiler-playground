@@ -10,6 +10,27 @@
       "request": "launch",
       "type": "node-terminal",
       "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    },
+    {
+      "command": "npm run re-printing-sections",
+      "name": "Run npm re-printing-sections",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    },
+    {
+      "command": "npm run customizing-module-resolution",
+      "name": "Run npm customizing-module-resolution",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"]
+    },
+    {
+      "command": "npm run doc-generator",
+      "name": "Run npm doc-generator",
+      "request": "launch",
+      "type": "node-terminal",
+      "skipFiles": ["<node_internals>/**", "node_modules/**"]
     }
   ]
 }
